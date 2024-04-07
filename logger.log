@@ -1,0 +1,17 @@
+2024-04-07 16:21:15 INFO edu.baylor.ecs.si.Timer <clinit> starting the app
+2024-04-07 16:21:15 INFO edu.baylor.ecs.si.Timer timeMe Calling took: 0
+2024-04-07 16:21:15 INFO edu.baylor.ecs.si.Timer timeMe * should take: 0
+2024-04-07 16:21:15 FINER org.junit.jupiter.engine.execution.ConditionEvaluator logResult Evaluation of condition [org.junit.jupiter.engine.extension.DisabledCondition] resulted in: ConditionEvaluationResult [enabled = true, reason = '@Disabled is not present']
+2024-04-07 16:21:15 SEVERE edu.baylor.ecs.si.Timer timeMe timeToWait is less than zero
+2024-04-07 16:21:15 FINER org.junit.jupiter.engine.execution.ConditionEvaluator logResult Evaluation of condition [org.junit.jupiter.engine.extension.DisabledCondition] resulted in: ConditionEvaluationResult [enabled = true, reason = '@Disabled is not present']
+2024-04-07 16:21:16 INFO edu.baylor.ecs.si.Timer timeMe Calling took: 1011
+2024-04-07 16:21:16 INFO edu.baylor.ecs.si.Timer timeMe * should take: 1000
+2024-04-07 16:21:16 FINE java.lang.Shutdown logRuntimeExit Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)
+	at java.base/java.lang.Shutdown.logRuntimeExit(Shutdown.java:179)
+	at java.base/java.lang.Shutdown.exit(Shutdown.java:160)
+	at java.base/java.lang.Runtime.exit(Runtime.java:188)
+	at java.base/java.lang.System.exit(System.java:1916)
+	at org.apache.maven.surefire.booter.ForkedBooter.exit(ForkedBooter.java:225)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:142)
+
